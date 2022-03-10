@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".listGridView"
+    android:orientation="vertical"
+    android:background="@color/teal_200"
+    >
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="tap"
+        android:id="@+id/btn_change_list_grid"
+        />
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/list_grid_view"
+        android:divider="@color/purple_700"
+        android:dividerHeight="2dp"
+        />
+    <GridView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:horizontalSpacing="20dp"
+        android:verticalSpacing="20dp"
+        android:numColumns="auto_fit"
+        android:id="@+id/grid_list_view"
+        />
+
+</LinearLayout>

@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".home_amazon_1"
+    android:orientation="vertical"
+    android:weightSum="5.5"
+    >
+<!--    amazon header-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:weightSum="2"
+        android:background="@drawable/amazon_back_home_color"
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:scaleX="2.5"
+            android:scaleY="2.5"
+
+            android:layout_height="0dp"
+            android:src="@drawable/amazon_icon"
+            android:layout_weight="1"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="@color/teal_200"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="Hello, Vraj - Ahmedabad"
+            android:gravity="center_vertical"
+            android:textSize="20dp"
+            android:layout_marginLeft="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            />
+
+
+
+    </LinearLayout>
+
+<!--    amazon buy products-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:weightSum="2"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:background="#7EB6F1EB"
+        >
+
+<!--        upper linearlayout-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:weightSum="2"
+            android:orientation="vertical"
+            android:layout_marginBottom="20dp"
+
+            >
+<!--            upper left-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1.5"
+                android:layout_marginRight="30dp"
+                >
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/iphone13"
+
+                    />
+
+            </LinearLayout>
+<!--            upper right-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.5"
+                android:weightSum="2"
+                android:orientation="vertical"
+                android:layout_marginLeft="20dp"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="Rs. 129900-179900"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:textColor="@color/black"
+                    android:text="Iphone 13 Max Pro|Lowest Price Ever"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+<!--        second linearlayout-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:weightSum="2"
+            android:orientation="vertical"
+            android:layout_marginBottom="20dp"
+            >
+
+
+            <!--      middle left-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1.5"
+                android:layout_marginRight="30dp"
+                >
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/airpods"
+
+                    />
+
+            </LinearLayout>
+            <!--    middle right-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.5"
+                android:weightSum="2"
+                android:orientation="vertical"
+                android:layout_marginLeft="20dp"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="Rs. 18500"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:textColor="@color/black"
+                    android:text="AirPods (3rd generation)"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+<!--        third linearlayout-->
+
+
+
+
+
+    </LinearLayout>
+
+<!--    amazon footer-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:weightSum="2"
+        android:paddingHorizontal="20dp"
+        android:background="#7EB6F1EB"
+        >
+
+        <Button
+            android:layout_gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginRight="20dp"
+            android:textAllCaps="false"
+            android:text="Submit"
+            android:id="@+id/btn_submit_amazon"
+            />
+        <Button
+            android:layout_gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAllCaps="false"
+            android:text="Open in Browser"
+            android:id="@+id/btn_openbroswer"
+            />
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".rascal_radio_page"
+    android:background="@drawable/rascal_radio"
+
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:padding="10dp"
+        android:id="@+id/upper_level"
+         android:weightSum="2"
+        >
+
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/hamburger_icon_left"
+            android:background="@color/white"
+            />
+
+
+
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="12dp"
+        android:background="@color/black"
+        android:layout_below="@id/upper_level"
+        android:id="@+id/middle_line_black"
+        />
+    <ImageView
+
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:src="@drawable/rascal_radio"
+        android:layout_centerHorizontal="true"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="3"
+        android:orientation="vertical"
+        android:layout_below="@id/middle_line_black"
+        >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F30D0D"
+
+        android:padding="30dp"
+        android:id="@+id/middle_red_portion"
+        android:orientation="vertical"
+        android:layout_weight="0.1"
+        >
+
+        <android.widget.Button
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:id="@+id/middle_uper_button"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/middle_btn"
+            android:layout_weight="1"
+            android:layout_marginHorizontal="30dp"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            android:text="Orrin Woodward"
+
+            /><android.widget.Button
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="SUBJECT SEARCH"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/middle_btn"
+            android:layout_weight="1"
+            android:layout_marginHorizontal="30dp"
+
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.7"
+        android:id="@+id/middle_grey"
+        android:background="#C3C9D5"
+        android:layout_below="@id/middle_red_portion"
+
+        android:orientation="vertical"
+        android:weightSum="2"
+        >
+        <android.widget.Button
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:background="@drawable/middle_grey_center"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:paddingHorizontal="40dp"
+            android:layout_weight="0.5"
+            android:text="ORMIN WOODWARD"
+            android:textSize="20dp"
+
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+
+            android:weightSum="3"
+            >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.6"
+                />
+<!--            below color in button-->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.8"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/inner_three_button"
+                android:weightSum="3"
+                >
+
+
+<!--                <LinearLayout-->
+<!--                    android:layout_width="0dp"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:layout_weight="1"-->
+<!--                    android:orientation="horizontal"-->
+<!--                    android:background="@drawable/inner_grey_icons"-->
+<!--                    android:weightSum="1"-->
+<!--                    >-->
+
+
+<!--                    <ImageView-->
+<!--                        android:layout_weight="0.8"-->
+<!--                        android:layout_width="0dp"-->
+<!--                        android:layout_height="match_parent"-->
+<!--                        android:background="@drawable/inner_grey_icons"-->
+<!--                        android:src="@drawable/thumb_rating_up_icon"-->
+<!--                        android:layout_margin="4dp"-->
+
+<!--                        />-->
+<!--                </LinearLayout>-->
+
+
+
+                    <ImageView
+                        android:layout_weight="1"
+                        android:layout_margin="4dp"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/inner_grey_icons"
+                        android:src="@drawable/thumb_rating_up_icon"
+
+                        />
+
+
+
+
+
+
+                <ImageView
+                    android:layout_margin="4dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/inner_grey_icons"
+                    android:src="@drawable/play_icon"
+                    />
+
+                <ImageView
+                    android:layout_margin="4dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/inner_grey_icons"
+                    android:src="@drawable/forward_mini_fill_icon"
+                    />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_weight="0.6"
+                android:layout_gravity="center_vertical"
+
+
+                >
+
+                <ImageView
+                    android:layout_margin="4dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/inner_grey_icons"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="20dp"
+                    android:src="@drawable/favorite_heart_like_love_icon"
+                    />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="0dp"-->
+<!--                android:orientation="horizontal"-->
+<!--                android:layout_weight="1"-->
+<!--                android:background="#C3C9D5"-->
+<!--                android:weightSum="2"-->
+<!--                android:layout_marginHorizontal="10dp"-->
+<!--                android:layout_marginVertical="20dp"-->
+
+<!--                >-->
+
+<!--                <TextView-->
+<!--                    android:layout_width="0dp"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:layout_weight="0.3"-->
+
+<!--                    />-->
+
+<!--                <LinearLayout-->
+<!--                    android:layout_width="0dp"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_weight="1.4"-->
+<!--                    android:background="@drawable/inner_three_button"-->
+<!--                    android:layout_margin="24dp"-->
+<!--                    android:weightSum="3"-->
+<!--                    android:layout_gravity="center_vertical"-->
+
+
+<!--                    >-->
+<!--                <ImageView-->
+<!--                    android:layout_width="0dp"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_weight="1"-->
+<!--                    android:src="@drawable/thumb_rating_up_icon"-->
+<!--                    android:background="@drawable/inner_grey_icons"-->
+
+<!--                    android:padding="4dp"-->
+<!--                    android:layout_marginHorizontal="12dp"-->
+<!--                    android:layout_gravity="center_vertical"-->
+<!--                    />-->
+<!--                    <ImageView-->
+<!--                    android:layout_width="0dp"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                        android:layout_weight="1"-->
+<!--                    android:src="@drawable/play_icon"-->
+<!--                    android:background="@drawable/inner_grey_icons"-->
+<!--                    android:padding="20dp"-->
+
+<!--                    />-->
+<!--                    <ImageView-->
+<!--                    android:layout_width="0dp"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_weight="1"-->
+<!--                    android:src="@drawable/forward_mini_fill_icon"-->
+<!--                    android:background="@drawable/inner_grey_icons"-->
+<!--                    android:padding="4dp"-->
+<!--                        android:layout_marginHorizontal="12dp"-->
+<!--                    android:layout_gravity="center_vertical"-->
+<!--                    />-->
+
+
+
+<!--                </LinearLayout>-->
+<!--                <ImageView-->
+<!--                    android:layout_width="0dp"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_weight="0.3"-->
+<!--                    android:src="@drawable/favorite_heart_like_love_icon"-->
+
+
+<!--                    android:layout_gravity="center_vertical"-->
+
+<!--                    android:background="@drawable/inner_grey_icons"-->
+<!--                    />-->
+
+<!--            </LinearLayout>-->
+            <!-- below icon line music        -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.5"
+
+                android:weightSum="3"
+                >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.8"
+                    android:text="00.00"
+                    android:textColor="#F40B0B"
+                    android:gravity="end"
+
+                    />
+
+                <View
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_width="90dp"
+                    android:layout_height="16dp"
+                    android:layout_weight="1.4"
+                    android:background="@color/black"
+
+                    />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.8"
+                    android:text="10.47"
+                    android:textColor="#F40B0B"
+                    android:gravity="start"
+                    />
+            </LinearLayout>
+
+
+    </LinearLayout>
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.2"
+        android:background="#3F4140"
+        android:layout_below="@id/middle_grey"
+        android:orientation="vertical"
+
+        >
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/leadership_below"
+                android:layout_gravity="center_horizontal"
+
+                />
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

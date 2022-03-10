@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.myfirstapplication">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyFirstApplication">
+        <activity
+            android:name=".BottonActivityCustomr"
+            android:exported="false"
+            android:label="@string/title_activity_tabbed_swipe"
+            android:theme="@style/Theme.MyFirstApplication.NoActionBar" />
+        <activity
+            android:name=".BasicBottomNavigation"
+            android:exported="false" />
+        <activity
+            android:name=".Fragment_whatsapp_three"
+            android:exported="false"
+            android:label="@string/title_activity_basic_bottom_navigation" />
+        <activity
+            android:name=".Activity_option_context_menu"
+            android:exported="false" />
+        <activity
+            android:name=".Fragment_activity_basic"
+            android:exported="false" />
+        <activity
+            android:name=".FragmentNAvigation_home"
+            android:exported="false" />
+        <activity
+            android:name=".Activity_cycle1"
+            android:exported="false" />
+        <activity
+            android:name=".Activity_cycle2"
+            android:exported="false" />
+        <activity
+            android:name=".SplashActivity"
+            android:exported="false" />
+        <activity
+            android:name=".data_custom_grid_view"
+            android:exported="false" />
+        <activity
+            android:name=".custom_gridView_browser"
+            android:exported="false" />
+        <activity
+            android:name=".customListView_browser"
+            android:exported="false" />
+        <activity
+            android:name=".viewvideo_browser"
+            android:exported="false" />
+        <activity
+            android:name=".webView_browser"
+            android:exported="false" />
+        <activity
+            android:name=".listGridView"
+            android:exported="false" />
+        <activity
+            android:name=".gridViewBrowser"
+            android:exported="false" />
+        <activity
+            android:name=".listViewBrowserAns"
+            android:exported="false" />
+        <activity
+            android:name=".ListViewBasic"
+            android:exported="false" />
+        <activity
+            android:name=".Spinner_browser"
+            android:exported="false" />
+        <activity
+            android:name=".DateTimepicker_browser"
+            android:exported="false" />
+        <activity
+            android:name=".alert_basic"
+            android:exported="false" />
+        <activity
+            android:name=".home_amazon4"
+            android:exported="false" />
+        <activity
+            android:name=".home_amazon3"
+            android:exported="false" />
+        <activity
+            android:name=".home_amazon2"
+            android:exported="false" />
+        <activity
+            android:name=".signup_basiclayout"
+            android:exported="false" />
+        <activity
+            android:name=".home_amazon_1"
+            android:exported="false" />
+        <activity
+            android:name=".reetingBar_seekBar_Value"
+            android:exported="false" />
+        <activity
+            android:name=".seekBar_ratingBar"
+            android:exported="false" />
+        <activity
+            android:name=".Browser_gallery_button"
+            android:exported="false" />
+        <activity
+            android:name=".signup_redirect"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity_redirect"
+            android:exported="false" />
+        <activity
+            android:name=".rascal_radio_page"
+            android:exported="false" />
+        <activity
+            android:name=".linear_layout_basic"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Instagram_activity"
+            android:exported="false" />
+        <activity
+            android:name=".LumiaDesignActivity"
+            android:exported="false" />
+        <activity
+            android:name=".splash_amazon1"
+            android:exported="false" />
+        <activity
+            android:name=".TabbedActivitySwipe"
+            android:exported="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
